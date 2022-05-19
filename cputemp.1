@@ -1,0 +1,27 @@
+.\" isto é um comentário
+.\" Processe este arquivo com:
+.\" groff -man -Tascii foo.1
+.\"
+.TH CPUTEMP 1 "ABRIL 2022" Linux "manual do usuário"
+.SH NOME
+cputemp \- mostra a temperatura da cpu
+.SH SINOPSE
+.B cputemp [-c] [--version]
+.SH DESCRIÇÃO
+.B cputemp
+filtra a sáida de do comando
+.BR sensors (1)
+possibilitando a visualização da temperatura do cpu de
+forma visualmente limpa com o comando
+.BR watch (1)
+.SH OPÇÕES
+.IP -c
+mostrar temperatura da cpu.
+.IP --version
+mostra a versão deste software.
+.SH AUTOR
+Luiz Paulo <email@gmail.com>
+.SH "VER TAMBÉM"
+.BR sensors (1),
+.BR watch (1)
+
